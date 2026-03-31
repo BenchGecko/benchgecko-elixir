@@ -1,0 +1,5 @@
+_build/
+deps/
+doc/
+mix.lock
+*.beam
