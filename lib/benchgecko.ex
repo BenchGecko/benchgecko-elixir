@@ -23,7 +23,7 @@ defmodule BenchGecko do
   Full documentation at [benchgecko.ai](https://benchgecko.ai).
   """
 
-  @version "0.1.0"
+  @version "0.1.1"
 
   defmodule Model do
     @moduledoc """
