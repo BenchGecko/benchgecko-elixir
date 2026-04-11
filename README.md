@@ -1,8 +1,10 @@
 # BenchGecko for Elixir
 
-**The CoinGecko for AI.** Elixir client for accessing AI model benchmarks, comparing language models, estimating inference costs, and discovering AI agents.
+**The data layer of the AI economy.** Official Elixir SDK for [BenchGecko](https://benchgecko.ai).
 
-BenchGecko tracks 300+ AI models across 50+ providers with real benchmark scores, latency metrics, and transparent pricing. This package gives you structured access to that data in idiomatic Elixir with pattern matching, pipes, and typespecs throughout.
+Query thousands of AI models with cross-provider pricing and daily price history. Track company valuations, funding timelines, and revenue estimates. Pull benchmark scores, agent leaderboards, and a live changelog of every price drop, every launch, every deprecation. If it moved in AI today, it's already on BenchGecko.
+
+This package gives you structured access to that data in idiomatic Elixir with pattern matching, pipes, and typespecs throughout.
 
 ## Installation
 
@@ -86,7 +88,7 @@ end
 
 ## Benchmark Categories
 
-BenchGecko organizes 40+ benchmarks into categories covering reasoning, coding, math, instruction following, safety, multimodal, multilingual, and long context evaluation:
+BenchGecko organizes benchmarks into categories covering reasoning, coding, math, instruction following, safety, multimodal, multilingual, and long context evaluation:
 
 ```elixir
 BenchGecko.benchmark_categories()
@@ -98,9 +100,9 @@ end)
 
 ## Built-in Model Catalog
 
-The package ships with a curated catalog of major models from OpenAI, Anthropic, Google, Meta, Mistral, and DeepSeek. Each entry includes benchmark scores, parameter counts, context window sizes, and per-token pricing.
+The package ships with a curated catalog of major models from every leading lab, including OpenAI, Anthropic, Google, Meta, Mistral, and DeepSeek. Each entry includes benchmark scores, parameter counts, context window sizes, and per-token pricing.
 
-All data is compiled into the module at build time for zero-overhead lookups -- no HTTP calls, no external dependencies.
+All data is compiled into the module at build time for zero-overhead lookups. No HTTP calls, no external dependencies.
 
 ```elixir
 model = BenchGecko.get_model!("deepseek-v3")
@@ -119,8 +121,8 @@ mix docs
 
 ## Resources
 
-- [BenchGecko](https://benchgecko.ai) -- Full platform with interactive comparisons
-- [Source Code](https://github.com/BenchGecko/benchgecko-elixir) -- Contributions welcome
+- [BenchGecko](https://benchgecko.ai). Full platform with interactive comparisons.
+- [Source Code](https://github.com/BenchGecko/benchgecko-elixir). Contributions welcome.
 
 ## License
 

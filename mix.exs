@@ -1,7 +1,7 @@
 defmodule BenchGecko.MixProject do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
   @source_url "https://github.com/BenchGecko/benchgecko-elixir"
 
   def project do
@@ -32,11 +32,7 @@ defmodule BenchGecko.MixProject do
   end
 
   defp description do
-    """
-    The CoinGecko for AI. Elixir client for AI model benchmarks, pricing comparison,
-    cost estimation, and agent discovery. Query structured data on 300+ models across
-    50+ providers with real benchmark scores and transparent pricing.
-    """
+    "Official Elixir SDK for BenchGecko, the data layer of the AI economy. Thousands of models with cross-provider pricing, company valuations, benchmark scores, and a live changelog. If it moved in AI today, it's already on BenchGecko."
   end
 
   defp package do

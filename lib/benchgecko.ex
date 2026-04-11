@@ -1,10 +1,11 @@
 defmodule BenchGecko do
   @moduledoc """
-  The CoinGecko for AI.
+  The data layer of the AI economy.
 
-  BenchGecko provides structured access to AI model benchmarks, pricing data,
-  and agent comparison. Query 300+ models across 50+ providers with real
-  benchmark scores, latency metrics, and transparent pricing.
+  BenchGecko provides structured access to thousands of AI models with
+  cross-provider pricing, daily price history, benchmark scores, company
+  valuations, funding timelines, and agent leaderboards. If it moved in AI
+  today, it's already on BenchGecko.
 
   ## Quick Start
 
@@ -23,7 +24,7 @@ defmodule BenchGecko do
   Full documentation at [benchgecko.ai](https://benchgecko.ai).
   """
 
-  @version "0.1.1"
+  @version "0.1.2"
 
   defmodule Model do
     @moduledoc """
